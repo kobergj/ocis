@@ -1503,18 +1503,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/register@npm:^7.14.5":
-  version: 7.14.5
-  resolution: "@babel/register@npm:7.14.5"
+"@babel/register@npm:^7.21.0":
+  version: 7.21.0
+  resolution: "@babel/register@npm:7.21.0"
   dependencies:
     clone-deep: ^4.0.1
     find-cache-dir: ^2.0.0
     make-dir: ^2.1.0
-    pirates: ^4.0.0
+    pirates: ^4.0.5
     source-map-support: ^0.5.16
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 5fab2384f5e3588cf5978312997afcc4cabcfc519eb6db7ebe3c5e704dc7faa7eef691b6939bc086937f732cdfbba028ea3fec0bdc23c41f19443bea13135a97
+  checksum: 9745cc7520b4c5e64cc54f4851c3b78af82e1f8cffc9041f5cc0b9aef62d86a9a8617327fc975b5e0e39cb5cc0aba7ae02429884390ee93e0de29152fa849b4f
   languageName: node
   linkType: hard
 
@@ -8302,7 +8302,7 @@ __metadata:
     "@babel/plugin-transform-runtime": ^7.15.0
     "@babel/polyfill": ^7.10.1
     "@babel/preset-env": ^7.13.12
-    "@babel/register": ^7.14.5
+    "@babel/register": ^7.21.0
     "@cucumber/cucumber": ^7.3.1
     "@cucumber/pretty-formatter": ^1.0.0-alpha.1
     "@erquhart/rollup-plugin-node-builtins": ^2.1.5
@@ -8769,12 +8769,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pirates@npm:^4.0.0":
-  version: 4.0.1
-  resolution: "pirates@npm:4.0.1"
-  dependencies:
-    node-modules-regexp: ^1.0.0
-  checksum: 091e232aac19f0049a681838fa9fcb4af824b5b1eb0e9325aa07b9d13245bfe3e4fa57a7766b9fdcd19cb89f2c15c688b46023be3047cb288023a0c079d3b2a3
+"pirates@npm:^4.0.5":
+  version: 4.0.5
+  resolution: "pirates@npm:4.0.5"
+  checksum: c9994e61b85260bec6c4fc0307016340d9b0c4f4b6550a957afaaff0c9b1ad58fbbea5cfcf083860a25cb27a375442e2b0edf52e2e1e40e69934e08dcc52d227
   languageName: node
   linkType: hard
 
