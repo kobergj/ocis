@@ -294,7 +294,6 @@ func NewService(options ...Option) (*Service, error) {
 		cfg.Policies.Commons = cfg.Commons
 		return policies.Execute(cfg.Policies)
 	})
-
 	// populate delayed services
 	dreg := func(name string, exec func(context.Context, *ociscfg.Config) error) {
 		s.Delayed[name] = NewSutureServiceBuilder(exec)

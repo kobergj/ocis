@@ -184,6 +184,7 @@ require (
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/go-acme/lego/v4 v4.4.0 // indirect
 	github.com/go-asn1-ber/asn1-ber v1.5.4 // indirect
+	github.com/go-chi/chi v4.1.2+incompatible // indirect
 	github.com/go-git/gcfg v1.5.0 // indirect
 	github.com/go-git/go-billy/v5 v5.3.1 // indirect
 	github.com/go-git/go-git/v5 v5.4.2 // indirect

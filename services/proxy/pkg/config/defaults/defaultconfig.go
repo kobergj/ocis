@@ -133,6 +133,11 @@ func DefaultPolicies() []config.Policy {
 					Service:  "com.owncloud.userlog.userlog",
 				},
 				{
+					// submarine stuff
+					Endpoint: "/submarine",
+					Service:  "com.owncloud.submarine.submarine",
+				},
+				{
 					Type:     config.RegexRoute,
 					Endpoint: "/ocs/v[12].php/cloud/user/signing-key", // only `user/signing-key` is left in ocis-ocs
 					Service:  "com.owncloud.web.ocs",

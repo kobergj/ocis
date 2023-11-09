@@ -3,6 +3,8 @@ package command
 import (
 	"github.com/urfave/cli/v2"
 
+	submarine "submarine/pkg/command"
+
 	"github.com/owncloud/ocis/v2/ocis-pkg/config"
 	"github.com/owncloud/ocis/v2/ocis-pkg/config/configlog"
 	"github.com/owncloud/ocis/v2/ocis-pkg/config/parser"
@@ -213,6 +215,10 @@ var svccmds = []register.Command{
 	func(cfg *config.Config) *cli.Command {
 		return ServiceCommand(cfg, cfg.Store.Service.Name, store.GetCommands(cfg.Store), func(c *config.Config) {
 			cfg.Store.Commons = cfg.Commons
+		})
+	},
+	func(cfg *config.Config) *cli.Command {
+		return ServiceCommand(cfg, "submarine", submarine.GetCommands(), func(c *config.Config) {
 		})
 	},
 	func(cfg *config.Config) *cli.Command {
